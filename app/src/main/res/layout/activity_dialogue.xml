@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/about"
+    android:layout_height="320dp"
+    android:orientation="vertical"
+    android:background="@drawable/copyrightradious"
+
+   >
+
+    <TextView
+        android:id="@+id/cancel_dialog"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+
+        android:layout_marginLeft="280dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="MEGH NEWS"
+        android:textSize="25dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version: 1.6"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/meghsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="            www.meghtechltd.com"
+        android:autoLink="web"
+
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/meghemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             info@meghtechltd.com"
+        android:contextClickable="true"
+        android:linksClickable="true"
+        android:autoLink="email"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered By:\n         Megh Technologies Ltd."
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+
+
+</LinearLayout>

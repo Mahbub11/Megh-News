@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send App" />
+            <item
+                android:id="@+id/Rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate"
+
+                />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item
+            android:id="@+id/About"
+
+            android:title="about" />
+
+        <item
+            android:id="@+id/terms"
+
+            android:title="Terms &amp; Condition" />
+
+
+
+        <item android:title="In Out">
+
+
+            <menu>
+
+                <item
+                    android:id="@+id/logout"
+
+                    android:title="Logout" />
+
+
+                <item
+                    android:id="@+id/Exit"
+
+                    android:title="Exit" />
+
+
+            </menu>
+
+
+        </item>
+
+    </group>
+</menu>

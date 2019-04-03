@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="MEGH NEWS"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingStart="40dp"
+        android:text="MENU"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+
+        android:paddingRight="100dp">
+
+        <TextView
+            android:id="@+id/firstmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTintMode="src_over"
+            android:padding="5dp"
+            android:paddingStart="40dp"
+            android:text="Share This"
+            android:textSize="20dp"
+            android:background="@drawable/backgroundradius"
+
+            />
+        <TextView
+            android:id="@+id/firstmenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_margin="2dp"
+            android:padding="5dp"
+            android:paddingStart="40dp"
+            android:textSize="20dp"
+            android:text="       Terms"
+            android:background="@drawable/backgroundradius"/>
+        <TextView
+            android:id="@+id/firstmenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="5dp"
+            android:paddingStart="40dp"
+            android:textSize="20dp"
+            android:text="        About"
+            android:background="@drawable/backgroundradius"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="56dp" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|end">
+
+
+        <WebView
+            android:id="@+id/Addview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="245dp"
+            android:layout_alignParentBottom="true"></WebView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:id="@+id/about"
+    android:layout_height="380dp"
+    android:orientation="vertical"
+    android:background="@drawable/copyrightradious"
+   >
+
+    <TextView
+        android:id="@+id/cancel_dialog"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Terms &amp; Condition"
+
+        android:textSize="25dp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/meghsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All content provided on this blog \n is for informational purposes only."
+
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/meghemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change of anything is illegal"
+        android:linksClickable="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Will be punished by Law"
+        android:linksClickable="true"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered By:\n         Megh Technologies Ltd."
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+
+
+
+</LinearLayout>
